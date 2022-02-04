@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url("8.jpg") rgba(0, 0, 0, 0.253);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+
+}
+img{
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.nav ul li{
+    justify-content: space-between;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.nav ul li a::after{
+    content: '';
+    transition: 0.5s;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10;
+    display: block;
+    background-color:#16e6ff;
+}
+.nav ul li a:hover::after{
+    width: 100%;
+}
+.text{
+    align-items: center;
+    margin:auto;
+    margin-top: 18%;
+    display: block;
+}
+.text h1{
+    text-align: center;
+    font-size: 62px;
+    color: #fff;
+}
+.text h1:hover{
+    font-size: 70px;
+    transition: 1.5s;
+}
+.text p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.btn{
+    display: inline-block;
+    border:skyblue 1px solid;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 2% 43%;
+    padding: 10px 20px;
+    position: relative;
+}
+.btn:hover{
+    background-color: #00cce4;
+    transition: 1s;
+}
+.section{
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+.sections{
+    background: white;
+}
+.sections h3{
+    color:#00cce4;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 40px 10px 10px 10px;
+    cursor: pointer;
+}
+.sections h3:hover{
+    color: #00a0b3;
+    font-size: 62px;
+    transition: 1.5s;
+
+}
+.section p{
+    box-sizing: border-box;
+    border: 1px solid #00cce4;
+    border-radius: 80px;
+    background-color: #00cce4;
+    color: #fff;
+    font-size: 14px;
+    height: 200px;
+    width: 330px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 80px;
+    text-align:justify;
+    text-align:center;
+}
+.section p:hover{
+    background-color:white ;
+    color: #00cce4;
+    border: #00cce4;
+    box-shadow: 0 0 20px 0px rgba(9, 198, 255, 0.75);
+    transition: 0.5s;
+}
+.contact{
+    align-items: right;
+    margin-left: 43%;
+    color: #fff;
+}
+.contact a{
+    text-decoration: none;
+    color: #fff;
+}
+.fab{
+    font-size: 40px;
+    text-align: right;
+    display: block;
+    justify-content: space-around;
+    margin:10px 20px 10px 20px;
+    border-radius: 50px;
+}
+
+/* ------------section2------- */
+.section2{
+    background-color: #555;
+    height: 110vh;
+    width: 100%;
+    display: inline-block;
+}
+.section2 h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.section2 h1:hover{
+    color: #fff;
+    font-size: 62px;
+    transition: 1.5s;
+}
+.row{
+    justify-content: space-between;
+    display: inline-block;
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+}
+.col{
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 0 20px 0 20px;
+    width:1100px;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.75);
+    
+}
+.col h3{
+    color: #555;
+    font-size: 30px;
+    padding-top:30px ;
+}
+.col h3:hover{
+    font-size: 40px;
+    color: #555;
+    transition: 1s;
+}
+.col img{
+    height: 400px;
+    width: 600px;
+    margin: 20px;
+    padding-left:60px ;
+    border-radius: 5px;
+}
+.art{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-right: 70px;
+
+}
+
+.art p{
+    font-size: 19px;
+    color: #555;
+    margin: 10px;
+    padding-top: 30px;
+    text-align: justify;
+}
+.col i{
+    color: #ffdf00;
+}
+.col i:hover{
+    color:#ff4500;
+}
+/* ----------------section3---------- */
+.secyion3{
+    background-color:white;
+    /* height:100vh; */
+    /* width: 100%; */
+
+}
+.section3 h1{
+    color: #555;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.section3 h1:hover{
+    color: #555;
+    font-size: 62px;
+    transition: 1.5s;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 80px;
+}
+.col2{
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+}
+.col2 h3{
+    margin: 20px;
+    text-align: center;
+    color: rgb(134, 133, 133);
+}
+.col2 img{
+    border-radius: 200px;
+    height: 250px;
+    width: 250px;
+    left: 30px;
+}
+.col2 img:hover{
+    box-shadow: 0 0 20px 0px rgba(26, 27, 27, 0.75);
+}
+.col2 p{
+    color: #555;
+    font-size: 14px;
+    text-align: justify;
+    margin: 30px;
+}
+/* =======emp--------- */
+.emp{
+    height: 50vh;
+}
+/* -----------section5--- */
+.section5{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+
+}
+.section5 img{
+    height: 200px;
+    width: 300px;
+    margin:30px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.section5 img:hover{
+    box-shadow: 0 0 20px 0px rgba(26, 27, 27, 0.75);
+    transition: 1s;
+}
+
+/* --------------------------footer-------------- */
+.footer{
+    background-color: rgb(30, 144, 255);
+    display: block;
+    height: 50vh;
+    margin-top: 100px;
+}
+.fr{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fc{
+    margin: 30px 5px 10px 5px;
+    padding: 0 30px 0 30px;
+}
+.fc a{
+    text-decoration: none;
+    color: rgb(206, 198, 198);
+    font-size: 14px;
+    text-align:justify;
+}
+.fc a:hover{
+    color: white;
+}
+.footer-contact{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-contact a{
+    color: #fff;
+    text-decoration: none;
+}
+/* ----------media query------ */
+@media screen and (max-width:380px){
+    .header{
+        height: 70vh;
+    }
+    .nav{
+        background: rgba(0, 0, 0, 0.479);
+        height: 7vh;
+    }
+    .nav img{
+        width:110px ;
+        height: 50px;
+        align-items: center;
+        margin-left: 40%;
+    }
+    .nav ul li{
+        margin: 5px;
+        padding: 5px;
+        visibility: hidden;
+    }
+    .text{
+        margin-top: 25%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 14px;
+    }
+    .text h1:hover{
+        font-size: 35px;
+        transition: 1.5s;
+    }
+    .btn{
+        margin: 4% 23%;
+        padding: 10px 20px;
+        width: 150px;
+    }
+    .contact{
+        margin-left: 32%;
+
+    }
+    .fab{
+        font-size: 25px;
+    }    
+    .section3{
+        display: block;
+        height: 20vh;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .section3 h1:hover{
+        font-size: 35px;
+    }
+    .section3 h3{
+        font-size: 20px;
+        text-align: center;
+        margin-right: 28%;
+    }
+    .section3 p{
+        font-size: 10px;
+        margin-right: 30%
+    }
+    .row2{
+        display: block;
+    }
+    .col2 img{
+        width: 125px;
+        height: 125px;
+        margin-left: 17%;
+    }
+    .section2{
+        visibility: hidden;
+    }
+    .section{
+        display: block;
+        height: 120vh;
+    }
+    .sections h3{
+        font-size: 30px;
+    }
+    .sections h3:hover{
+        font-size: 35px;
+    }
+    .section p{
+        width: 180px;
+        height: 210px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+    .section5 img{
+        width: 200px;
+        height: 100px;
+        margin-left:70px;
+    }
+    .footer{
+        height: 50vh;
+        width: 100%;
+    }
+    .fr{
+        width: 90%;
+        font-size: 10px;
+    }
+    .fc{
+        width: 80%;
+        margin: 3% 0;
+    }
+    .fc a{
+        font-size: 10px;
+    }
+}   
+/* =========================================m2 */
+@media screen and (max-width:480px){
+    .header{
+        height: 70vh;
+    }
+    .nav{
+        background: rgba(0, 0, 0, 0.479);
+        height: 7vh;
+    }
+    .nav img{
+        width:110px ;
+        height: 50px;
+        align-items: center;
+        margin-left: 40%;
+    }
+    .nav ul li{
+        margin: 5px;
+        padding: 5px;
+        visibility: hidden;
+    }
+    .text{
+        margin-top: 25%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 14px;
+    }
+    .text h1:hover{
+        font-size: 35px;
+        transition: 1.5s;
+    }
+    .btn{
+        margin: 4% 23%;
+        padding: 10px 20px;
+        width: 150px;
+    }
+    .contact{
+        margin-left: 32%;
+
+    }
+    .fab{
+        font-size: 25px;
+    }    
+    .section3{
+        display: block;
+        height: 20vh;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .section3 h1:hover{
+        font-size: 35px;
+    }
+    .section3 h3{
+        font-size: 20px;
+        text-align: center;
+        margin-right: 28%;
+    }
+    .section3 p{
+        font-size: 10px;
+        margin-right: 30%
+    }
+    .row2{
+        display: block;
+    }
+    .col2 img{
+        width: 125px;
+        height: 125px;
+        margin-left: 17%;
+    }
+    .section2{
+        visibility: hidden;
+    }
+    .section{
+        display: block;
+        height: 120vh;
+    }
+    .sections h3{
+        font-size: 30px;
+    }
+    .sections h3:hover{
+        font-size: 35px;
+    }
+    .section p{
+        width: 180px;
+        height: 210px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+    .section5 img{
+        width: 200px;
+        height: 100px;
+        margin-left:70px;
+    }
+    .footer{
+        height: 50vh;
+        width: 100%;
+    }
+    .fr{
+        width: 90%;
+        font-size: 10px;
+    }
+    .fc{
+        width: 80%;
+        margin: 3% 0;
+    }
+    .fc a{
+        font-size: 10px;
+    }
+}   
